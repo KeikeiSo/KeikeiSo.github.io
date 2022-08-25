@@ -100,6 +100,7 @@
 .about{
     display: flex;
     font-family:'Ubuntu', sans-serif;
+    overflow: hidden;
 }
 .about .max-width{
     display: inline-block;
