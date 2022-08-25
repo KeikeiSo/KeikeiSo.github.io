@@ -18,7 +18,7 @@
     justify-content: space-between;
 }
 .max-width {
-    max-width: 1300px;
+    max-width: 100%;
     padding: 0 70px;
     margin: 20px;
 }
@@ -198,16 +198,31 @@
   .skills-diagram {
     font-size: 10px;
   }
+  .max-width {
+    max-width: 100%;
+    padding: 0 24px;
+    margin: 8px;
+  }
 }
 @media screen and (max-width: 400px) {
   .skills-diagram {
     font-size: 8px;
+  }
+  .max-width {
+    max-width: 100%;
+    padding: 0 24px;
+    margin: 8px;
   }
 }
 
 @media screen and (max-width: 330px) {
   .skills-diagram {
     font-size: 6px;
+  }
+  .max-width {
+    max-width: 100%;
+    padding: 0 24px;
+    margin: 8px;
   }
 }
 
